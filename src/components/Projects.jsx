@@ -14,6 +14,7 @@ const getProjects = (number) => {
         image={ProjectsData[item].url}
         title={ProjectsData[item].title}
         link={ProjectsData[item].link}
+        demoLink={ProjectsData[item].demoLink}
       />
     );
   }
