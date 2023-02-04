@@ -24,14 +24,6 @@ const getProjects = (number) => {
 const Projects = () => {
   console.log(ProjectsData);
   const [num, setNum] = useState(6);
-  // const project = ProjectsData.map((item) => (
-  //   <ProjectsItem
-  //     key={item.id}
-  //     image={item.url}
-  //     title={item.title}
-  //     link={item.link}
-  //   />
-  // ));
   const project = getProjects(num);
   const seeMore = () => {
     if (num > ProjectsData.length) {

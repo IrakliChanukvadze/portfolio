@@ -7,8 +7,16 @@ import speedTyping from "../assets/speedTyping.png";
 import randomMemeGenerator from "../assets/randomMemeGenerator.png";
 import entertainment from "../assets/entertainment.png";
 import drum from "../assets/drum.png";
+import ecommerse from "../assets/ecommerse.png";
 
 export default [
+  {
+    id: 9,
+    title: "e-commerse",
+    url: ecommerse,
+    link: "https://github.com/IrakliChanukvadze/e-commerse",
+    demoLink: "https://iraklichanukvadze.github.io/e-commerse/#/",
+  },
   {
     id: 8,
     title: "entertainment",
