@@ -8,10 +8,18 @@ import randomMemeGenerator from "../assets/randomMemeGenerator.png";
 import entertainment from "../assets/entertainment.png";
 import drum from "../assets/drum.png";
 import ecommerse from "../assets/ecommerse.png";
+import cryptoDice from "../assets/cryptoDice.png";
 
 export default [
   {
-    id: 9,
+    id: 11,
+    title: "Crypto-Dice",
+    url: cryptoDice,
+    link: "https://github.com/IrakliChanukvadze/crypto-dice",
+    demoLink: "https://iraklichanukvadze.github.io/crypto-dice/#/",
+  },
+  {
+    id: 10,
     title: "e-commerse",
     url: ecommerse,
     link: "https://github.com/IrakliChanukvadze/e-commerse",
