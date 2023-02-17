@@ -65,7 +65,7 @@ const Main = () => {
                 className="hover:scale-125 ease-in duration-200 cursor-pointer"
               />
             </a>
-            <a href="https://www.linkedin.com/in/iraklichano/" target="_blank">
+            <a href="https://github.com/IrakliChanukvadze" target="_blank">
               <FaGithub
                 size={20}
                 className=" hover:scale-125 ease-in duration-200 cursor-pointer"
