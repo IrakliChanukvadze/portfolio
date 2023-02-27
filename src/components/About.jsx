@@ -18,7 +18,7 @@ const About = () => {
             <div className="border-2 flex flex-col items-center py-6 rounded-lg bg-white w-[100%] sm:w-[30%] max-w-[270px] mb-7 sm:mb-0">
               <RiSuitcaseLine size={25} />
               <h3 className="text-2xl text-bold my-2 text-black">Experience</h3>
-              <p className="text-base text-black/80 ">0 years working</p>
+              <p className="text-base text-black/80 ">1+ years</p>
             </div>
             <div className="border-2 flex flex-col items-center py-6 rounded-lg bg-white w-[100%] sm:w-[30%] max-w-[270px] mb-7 sm:mb-0">
               <GrCompliance size={25} />
@@ -31,13 +31,18 @@ const About = () => {
               <p className="text-base text-black/80 ">online 24/7</p>
             </div>
           </div>
-          <p className="mb-10  max-w-[300px] sm:max-w-[400px] m-auto text-lg sm:mt-10">
-            &nbsp; Hey, I am a former international rugby referee,who decided to
-            get involved in software development. I have a Bachelor's degree in
-            a faculty of Computer Sciences. I've been related in this field for
-            a long time now, learned how to solve issues in a very efficient
-            way. I am always eager to learn new technologies and keep up with
-            the latest industry trends.
+          <p className="mb-10  max-w-[400px] sm:max-w-[400px] m-auto text-lg sm:mt-10">
+            &nbsp; Hey, I am a highly motivated and driven individual with a
+            strong passion for software development. With a Bachelor’s degree in
+            Computer Science and a background as an international rugby referee,
+            I have gained experience in problem-solving, teamwork, attention to
+            detail, and working under pressure. As a rugby referee, I learned
+            how to make quick, accurate decisions in high-pressure situations,
+            and I bring that same level of focus and dedication to my work in
+            software development. As a lead student back in my university days,
+            I also developed a deep understanding of logic and algorithms. I am
+            always eager to learn new technologies and keep up with the latest
+            industry trends
           </p>
           <button className="bg-[#4d5b9e] w-52 p-6 rounded-lg text-white text-bold font-serif m-auto   active:shadow-click focus:outline-none ]">
             <a download={cv} href={cv}>
